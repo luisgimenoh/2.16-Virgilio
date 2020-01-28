@@ -1,0 +1,34 @@
+@font-face{
+    font-family: "Ribeye";
+    src: url(fonts/ribeye.woff2);
+}
+
+body{
+    background-color: #CBAC4D;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-family: "Ribeye";
+}
+
+div.nombre{
+    font-weight: bold;
+}
+
+div.obras{
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+p.latin{
+    font-family: 'Lobster', cursive;
+}
+p.español{
+
+}

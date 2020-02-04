@@ -24,11 +24,19 @@ div.obras{
     text-decoration: underline;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@font-face{
+    font-family: 'Lobster';
+   src: url(fonts/lobster.woff2)
 
+}
+@font-face{
+    font-family: 'Just Another Hand', cursive;
+    src: url(fonts/just-another-hand.woff2)
+}
 p.latin{
     font-family: 'Lobster', cursive;
 }
 p.español{
+    font-family:'Just Another Hand', cursive;
 
 }
